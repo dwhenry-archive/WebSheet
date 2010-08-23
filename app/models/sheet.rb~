@@ -1,0 +1,21 @@
+class Sheet
+  def initialize
+    {
+      :cols => 10,
+      :rows => 10,
+      :name => 'testSheet',
+      :cells => [{
+        :id => 10,
+	:col => 2,
+	:row => 3.
+	:value => 12
+      },
+      {
+        :id => 12,
+	:col => 4,
+	:row => 3.
+	:value => 10
+      }]
+    }
+  end
+end
