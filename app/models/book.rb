@@ -1,7 +1,7 @@
 class Book
-  def initialize(user, file)
+  def self.get_book(user, file)
     {
-      :sheets => Sheet.new()
+      :sheets => [Sheet.get_sheet]
     }
   end
 end

@@ -773,3 +773,1915 @@ ActionController::UnknownAction (No action responded to javascripts. Actions: in
   
 
 Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 13:10:08) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (36.9ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (unprocessable_entity)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 13:10:53) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (35.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 13:15:19) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 13:15:19) [GET]
+  Parameters: {"id"=>"prototype"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 13:15:19) [GET]
+  Parameters: {"id"=>"effects"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 13:15:19) [GET]
+  Parameters: {"id"=>"book"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 13:15:19) [GET]
+  Parameters: {"id"=>"sheet"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 13:15:19) [GET]
+  Parameters: {"id"=>"effects"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 13:15:19) [GET]
+  Parameters: {"id"=>"book"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 13:15:19) [GET]
+  Parameters: {"id"=>"sheet"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 13:16:21) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 13:16:21) [GET]
+  Parameters: {"id"=>"prototype"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (2.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 13:16:21) [GET]
+  Parameters: {"id"=>"effects"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 13:16:21) [GET]
+  Parameters: {"id"=>"book"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 13:16:21) [GET]
+  Parameters: {"id"=>"sheet"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 13:16:22) [GET]
+  Parameters: {"id"=>"book"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 13:16:22) [GET]
+  Parameters: {"id"=>"sheet"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 14:08:30) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:30) [GET]
+  Parameters: {"id"=>"prototype"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:30) [GET]
+  Parameters: {"id"=>"effects"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:30) [GET]
+  Parameters: {"id"=>"book"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:30) [GET]
+  Parameters: {"id"=>"sheet"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:30) [GET]
+  Parameters: {"id"=>"effects"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:30) [GET]
+  Parameters: {"id"=>"prototype"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:30) [GET]
+  Parameters: {"id"=>"book"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:30) [GET]
+  Parameters: {"id"=>"sheet"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:30) [GET]
+  Parameters: {"id"=>"prototype"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:30) [GET]
+  Parameters: {"id"=>"effects"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:30) [GET]
+  Parameters: {"id"=>"book"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:30) [GET]
+  Parameters: {"id"=>"sheet"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 14:08:35) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:35) [GET]
+  Parameters: {"id"=>"prototype"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:35) [GET]
+  Parameters: {"id"=>"effects"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:35) [GET]
+  Parameters: {"id"=>"book"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:35) [GET]
+  Parameters: {"id"=>"sheet"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:35) [GET]
+  Parameters: {"id"=>"prototype"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:35) [GET]
+  Parameters: {"id"=>"sheet"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:35) [GET]
+  Parameters: {"id"=>"prototype"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:35) [GET]
+  Parameters: {"id"=>"effects"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:35) [GET]
+  Parameters: {"id"=>"book"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:08:35) [GET]
+  Parameters: {"id"=>"sheet"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 14:09:38) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:09:39) [GET]
+  Parameters: {"id"=>"prototype"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:09:39) [GET]
+  Parameters: {"id"=>"effects"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:09:39) [GET]
+  Parameters: {"id"=>"book"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:09:39) [GET]
+  Parameters: {"id"=>"sheet"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:09:39) [GET]
+  Parameters: {"id"=>"effects"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:09:39) [GET]
+  Parameters: {"id"=>"book"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:09:39) [GET]
+  Parameters: {"id"=>"sheet"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 14:09:39) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (113.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 14:10:37) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (4.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:10:37) [GET]
+  Parameters: {"id"=>"prototype"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:10:37) [GET]
+  Parameters: {"id"=>"effects"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:10:37) [GET]
+  Parameters: {"id"=>"book"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:10:37) [GET]
+  Parameters: {"id"=>"sheet"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:10:37) [GET]
+  Parameters: {"id"=>"prototype"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:10:37) [GET]
+  Parameters: {"id"=>"effects"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:10:37) [GET]
+  Parameters: {"id"=>"book"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#javascripts to js (for 127.0.0.1 at 2010-08-23 14:10:37) [GET]
+  Parameters: {"id"=>"sheet"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: index and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 14:10:38) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (35.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 14:11:16) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 14:11:16) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (35.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 14:11:34) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 14:11:34) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (35.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 14:12:36) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 14:12:36) [POST]
+Completed in 98ms (View: 3, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 14:14:00) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 14:14:01) [POST]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 14:15:00) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 14:15:00) [POST]
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 14:15:08) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 14:15:09) [POST]
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 14:17:14) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 14:17:14) [POST]
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 14:17:47) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 14:17:47) [POST]
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 14:18:15) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 14:18:16) [POST]
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 14:20:07) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 61ms (View: 60, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 14:20:07) [POST]
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 14:20:17) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 14:20:28) [POST]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 14:21:55) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 14:22:01) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 14:22:01) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 14:22:54) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 14:23:19) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 14:23:19) [POST]
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 14:23:43) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 14:23:44) [POST]
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 15:33:54) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 15:33:56) [POST]
+Completed in 47ms (View: 30, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 15:42:51) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 63ms (View: 62, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 15:42:52) [POST]
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 15:43:19) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 15:43:19) [POST]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 15:43:39) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 15:45:50) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 15:46:02) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 15:46:03) [POST]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 15:49:15) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 15:49:25) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 15:49:25) [POST]
+Completed in 91ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 15:49:46) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 15:49:52) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 15:50:41) [POST]
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 15:52:05) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 10ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 15:52:06) [POST]
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 15:52:10) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 15:52:11) [POST]
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 15:52:23) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 15:52:23) [POST]
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 15:54:29) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 15:54:29) [POST]
+Completed in 11ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 15:54:40) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 15:54:41) [POST]
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 15:55:29) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 15:55:30) [POST]
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 15:55:33) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 15:55:34) [POST]
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 15:55:42) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 15:55:42) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 15:56:39) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 15:56:40) [POST]
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 16:00:44) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 16:00:45) [POST]
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 16:01:00) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 59ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 16:01:00) [POST]
+Completed in 11ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 16:03:14) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 16:03:15) [POST]
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 16:04:14) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 16:04:14) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 16:05:26) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 16:05:26) [POST]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 16:05:39) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 16:05:40) [POST]
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 16:05:57) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 16:05:57) [POST]
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 16:08:07) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 16:08:07) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 18:46:35) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 18:46:36) [POST]
+Completed in 75ms (View: 2, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 18:47:29) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 18:47:30) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 18:47:57) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 18:47:58) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 18:48:07) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 18:48:07) [POST]
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 18:48:39) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 18:48:39) [POST]
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 18:49:18) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 18:49:18) [POST]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 18:52:17) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 4ms (View: 2, DB: 2) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 18:52:17) [POST]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 18:54:08) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 18:54:08) [POST]
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 19:03:55) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 19:03:55) [POST]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 19:04:22) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 19:04:22) [POST]
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 19:06:12) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 19:06:12) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 19:06:18) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 19:06:18) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 19:06:41) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 19:06:41) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 19:06:59) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 19:07:00) [POST]
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 19:07:57) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 19:07:57) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 19:12:30) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 19:12:30) [POST]
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 19:12:45) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 19:12:45) [POST]
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 19:13:25) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 19:13:25) [POST]
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 19:13:28) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 19:13:28) [POST]
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 19:13:50) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 19:13:50) [POST]
+Completed in 11ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 19:14:00) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 19:14:01) [POST]
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 19:17:34) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 19:17:35) [POST]
+Completed in 72ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 19:17:43) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 19:17:44) [POST]
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:11:24) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:11:25) [POST]
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:11:44) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:11:44) [POST]
+Completed in 12ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:12:28) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:12:28) [POST]
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:12:53) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:12:53) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:13:23) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:13:23) [POST]
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:17:25) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:17:25) [POST]
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:17:41) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:17:42) [POST]
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:22:03) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:22:31) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:22:32) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:23:18) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:23:18) [POST]
+Completed in 11ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:25:53) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:25:53) [POST]
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:25:57) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:25:57) [POST]
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:26:22) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:26:22) [POST]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:26:53) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:26:54) [POST]
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:27:06) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:27:06) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:27:19) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:27:19) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:29:42) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:29:43) [POST]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:32:35) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:32:36) [POST]
+Completed in 79ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:32:39) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (2.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:32:40) [POST]
+Completed in 8ms (View: 3, DB: 3) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:49:27) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:49:27) [POST]
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:49:43) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:49:43) [POST]
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:49:55) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:50:00) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:50:00) [POST]
+Completed in 70ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:50:44) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:50:54) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:50:54) [POST]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:55:36) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:55:54) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:55:54) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:58:03) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:58:04) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:58:38) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 73ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:58:47) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:58:48) [POST]
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:59:09) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:59:12) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:59:13) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 21:59:55) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 21:59:56) [POST]
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 22:00:40) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 22:00:43) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 22:00:44) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 22:01:06) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 22:01:13) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 22:01:13) [POST]
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 22:23:27) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 22:23:28) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 22:23:45) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 22:23:46) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 22:24:46) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 22:24:49) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 22:24:49) [POST]
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 22:25:10) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 22:25:22) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 22:25:22) [POST]
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#update_cell (for 127.0.0.1 at 2010-08-23 22:26:23) [GET]
+  Parameters: {"cell"=>"R7_C6", "value"=>" 10", "editorId"=>"R7_C6"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/book/update_cell?cell=R7_C6&value=%C2%A010&editorId=R7_C6]
+  [4;35;1mSQL (2.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 22:28:47) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 3) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 22:28:48) [POST]
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#update_cell (for 127.0.0.1 at 2010-08-23 22:31:00) [GET]
+  Parameters: {"cell"=>"R7_C6", "value"=>" 10", "editorId"=>"R7_C6"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/book/update_cell?cell=R7_C6&value=%C2%A010&editorId=R7_C6]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 22:36:28) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 22:36:28) [POST]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 22:37:25) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 22:37:31) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 22:37:32) [POST]
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 22:38:10) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsheetController#show (for 127.0.0.1 at 2010-08-23 22:38:17) [GET]
+Rendering template within layouts/application
+Rendering websheet/show
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/websheet/show]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#initialise (for 127.0.0.1 at 2010-08-23 22:38:17) [POST]
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/book/initialise]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#update_cell (for 127.0.0.1 at 2010-08-23 22:38:31) [GET]
+  Parameters: {"cell"=>"R7_C6", "value"=>"hello", "editorId"=>"R7_C6"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/book/update_cell?cell=R7_C6&value=hello&editorId=R7_C6]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BookController#update_cell (for 127.0.0.1 at 2010-08-23 22:39:21) [GET]
+  Parameters: {"cell"=>"R6_C6", "value"=>"30", "editorId"=>"R6_C6"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/book/update_cell?cell=R6_C6&value=30&editorId=R6_C6]
