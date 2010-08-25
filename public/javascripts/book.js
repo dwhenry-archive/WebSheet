@@ -1,29 +1,39 @@
-var webBook;
+var WebOffice = {
+  _books: [],
+  appElement: 'book',
 
-function WebBook() {
-  this.currentSheet = null;
-  this._sheet = null;
-  this._sheets = [];
+  setElement: function(element) {
+    _appElement = element;
+  },
 
-  this.open_book = function(userName, fileName) {
+  openBook: function(userName, fileName) {
+    book = new WebOffice.WebBook(userName, fileName)
+    this._books.push(book)
+  },
+
+  WebBook: (function(userName, fileName) {
+    this.currentSheet = null;
+    this._sheets = [];
+
+    var load_book = function(request) {
+      book = request.responseJSON;
+
+      book.sheets.each(function(sheet) {
+        currentSheet = new WebOffice.WebBook.WebSheet(sheet);
+        this._sheets.push(currentSheet);
+      }.bindAsEventListener(this));
+
+      currentSheet.render($(WebOffice.appElement));
+    }
+
+    this.render = function(element) {
+      this.currentSheet.render($(WebOffice.appElement))
+    };
+
     new Ajax.Request('/book/initialise', {
       params: {user: userName, file: fileName},
-      onSuccess: this.load_book.bindAsEventListener(this)
+      onSuccess: load_book.bindAsEventListener(this)
     });
-  };
-
-  this.load_book = function(request) {
-    book = request.responseJSON;
-    book.sheets.each(function(sheet) {
-      this._sheet = new WebSheet();
-      this._sheet.add_sheet(sheet);
-      this._sheets.push(this._sheet);
-    }.bindAsEventListener(this));
-    this._sheet.render($('book'));
-  }
-
-  this.render = function(element) {
-    this._sheet.render(element)
-  };
+  })
 };
    

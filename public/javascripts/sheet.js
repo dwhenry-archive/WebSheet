@@ -1,23 +1,16 @@
-function WebSheet() {
-  this._cols = 0;
-  this._rows = 0;
-  this._name = '';
-  this._cells = {};
-  
-  this.add_sheet = function(sheet) {
-    this._cols = sheet.cols,
-    this._rows = sheet.rows,
-    this._name = sheet.name,
-    this._cells = sheet.cells
-  };
+WebOffice.WebBook.WebSheet = (function(sheet) {
+  this._cols = sheet.cols,
+  this._rows = sheet.rows,
+  this._name = sheet.name,
+  this._cells = sheet.cells
 
   this.render = function(element) {
     this.render_header(element);
-    		 
+
     for(var row=0; row < this._rows; row++) {
       this.render_row(row, element);
     }
-    cellsObject.watchCells();
+    WebOffice.WebBook.CellAction.watchCells();
   };
 
   this.render_header = function(element) {
@@ -34,12 +27,13 @@ function WebSheet() {
   this.render_header_col = function(col, parentDiv) {
     cell = document.createElement('DIV');
     cell.id = 'col_' + col;
-    cell.addClassName('cell col col_' + col);
+    cell.addClassName('cell_header col col_' + col);
     cell.innerHTML = 'COL ' + col;
     parentDiv.appendChild(cell);
     adjuster = document.createElement('DIV');
     adjuster.addClassName('col_adjuster');
     adjuster.id = 'adjuster_col_' + col;
+    adjuster.setAttribute('colID', 'col_' + col);
     parentDiv.appendChild(adjuster);
   };
 
@@ -58,13 +52,14 @@ function WebSheet() {
     adjuster = document.createElement('DIV');
     adjuster.addClassName('row_adjuster');
     adjuster.id = 'adjuster_row_' + row;
+    adjuster.setAttribute('rowID', 'row_' + row);
     parentDiv.appendChild(adjuster);
     cell = document.createElement('DIV');
-    cell.id = 'row_' + row;
-    cell.addClassName('cell col header_col row_' + row);
+    cell.id = 'header_row_' + row;
+    cell.addClassName('cell_header header_col row_' + row);
     cell.innerHTML = 'ROW ' + row;
     parentDiv.appendChild(cell);
-  
+
   };
 
   this.render_corner = function(parentDiv){
@@ -105,5 +100,5 @@ function WebSheet() {
     this._cols = cols;
     this._rows = rows;
   };
-}
+})
 

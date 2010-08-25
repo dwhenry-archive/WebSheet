@@ -5,7 +5,7 @@
 .col {
 }
 
-.cell {
+.cell, .cell_header {
   float: left;
   border: 1px solid black;
   position: relative;
