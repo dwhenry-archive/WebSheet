@@ -131,7 +131,7 @@ WebOffice.WebBook.CellAction = {
   setRowWidth: function(cell) {
     cell.observe('mousedown', function(event) {
       this._resizeElement = $(event.element().getAttribute('rowID'));
-      this._position = event.screenY;
+      this._position = event.screenY - parseInt(this._resizeElement.getStyle('height'));
       this._direction = 'row';
     }.bindAsEventListener(this));
   },
@@ -141,12 +141,12 @@ WebOffice.WebBook.CellAction = {
       if(!this._resizeElement || this._direction != 'row')
         return;
       change = event.screenY - this._position;
-      currentSize = parseInt(this._resizeElement.getStyle('height'));
-      newSize = [currentSize + change, 0].max()
-
+      newSize = [change, 0].max()
+//      $('pos').update(this._position);
+//      $('change').update(change);
+//      $('size').update(newSize);
       Prototype.setRule('.' + this._resizeElement.id, {height: newSize + 'px'})
-      $('adjuster_' + this._resizeElement.id).setStyle({'margin-top': (newSize - 2) + 'px'})
-      this._position = event.screenY;
+      $('adjuster_' + this._resizeElement.id).setStyle({'marginTop': (newSize - 2) + 'px'})
     }.bindAsEventListener(this));
 
     document.observe('mouseup', function(event) {
