@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  value: MyString
+  row: 1
+  col: 1
+  sheet: 
+  equation: 
+
+two:
+  value: MyString
+  row: 1
+  col: 1
+  sheet: 
+  equation: 

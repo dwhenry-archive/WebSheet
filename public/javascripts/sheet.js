@@ -1,10 +1,17 @@
 WebOffice.WebBook.WebSheet = (function(sheet) {
-  this._cols = sheet.cols,
-  this._rows = sheet.rows,
-  this._name = sheet.name,
-  this._cells = sheet.cells
+  this._id = sheet.id;
+  this._cols = sheet.cols;
+  this._rows = sheet.rows;
+  this._name = sheet.name;
+  this._cells = sheet.cells;
 
   this.render = function(element) {
+    id_elem = document.createElement('DIV');
+    id_elem.id = 'sheet_id';
+    id_elem.innerHTML = this._id;
+    id_elem.setStyle({display: 'none'});
+    element.update(id_elem);
+
     this.render_header(element);
 
     for(var row=0; row < this._rows; row++) {

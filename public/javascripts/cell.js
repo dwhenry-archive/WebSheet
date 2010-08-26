@@ -74,7 +74,10 @@ WebOffice.WebBook.CellAction = {
 
   editCell: function(cell) {
     if(cell.id == '') return;
-    new Ajax.InPlaceEditor(cell.id,'/book/update_cell?cell=' + cell.id, {
+    new Ajax.InPlaceEditor(cell.id,'/book/update_cell', {
+      callback: function(form, value) {
+        return {'cell': cell.id, 'sheet': $('sheet_id').innerHTML.strip(), 'value': value }
+      },
       cancelControl: 'none',
       okControl: 'none',
       onFormReady: function(form) {
@@ -84,7 +87,7 @@ WebOffice.WebBook.CellAction = {
                              height: cell.getStyle('height')})
       }.bindAsEventListener(this),
       htmlResponse: false,
-      onSuccess: function(request) {
+      onComplete: function(request) {
         results = request.responseJSON;
         results.each(function(cellSettings) {
           // update settings here
@@ -95,9 +98,25 @@ WebOffice.WebBook.CellAction = {
 
           cell.innerHTML = cellSettings.value;
         })
-      },
-      onComplete: function(request) {
         WebOffice.WebBook.CellAction.currentCell = null;
+      },
+//      onSuccess: function(request) {
+//        results = request.responseJSON;
+//        results.each(function(cellSettings) {
+//          // update settings here
+//          row = cellSettings.row;
+//          col = cellSettings.col;
+//          cell = $('R' + row + '_C' + col);
+//          if(!cell) WebOffice.currentSheet.growSheet(row, col);
+//
+//          cell.innerHTML = cellSettings.value;
+//        })
+//      },
+//      onComplete: function(request) {
+//        WebOffice.WebBook.CellAction.currentCell = null;
+//      },
+      onFailure: function(request) {
+        alert('Error Updating Cell..');
       }
     });
   },

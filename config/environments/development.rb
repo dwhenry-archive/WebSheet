@@ -1,4 +1,7 @@
 # Settings specified here will take precedence over those in config/environment.rb
+config.gem "factory_girl", :lib => 'factory_girl', :source => 'http://gems.github.com'
+config.gem "rspec", :version => '1.3.0', :lib => 'spec'
+config.gem "rspec-rails", :version => '1.3.2', :lib => false
 
 # In the development environment your application's code is reloaded on
 # every request.  This slows down response time but is perfect for development
